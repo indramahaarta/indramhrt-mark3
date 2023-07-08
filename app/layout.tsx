@@ -16,7 +16,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-white text-[#6e6e6e]">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {" "}
+        <div className="bg-white px-6">
+          <Navbar />
+          <div className="max-w-[1024px] pt-[81px] pb-8 w-full mx-auto">
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
