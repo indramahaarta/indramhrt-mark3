@@ -12,7 +12,7 @@ const Navbar = () => {
     setOpen(!open);
   };
   return (
-    <div className="h-[81px] bg-transparent w-full flex items-center justify-between max-w-[1024px] mx-auto bg-white text-[#6E6E6E] fixed translate-x-1/2 right-1/2 px-6 z-[100]">
+    <div className="h-[81px] bg-transparent w-full flex items-center justify-between max-w-[1024px] mx-auto bg-white text-[#6E6E6E] fixed translate-x-1/2 right-1/2 z-[100] px-4 lg:px-0">
       <div className="flex items-center">Indramhrt</div>
       <WrapperHamburger open={open} onClick={toggleHamburger}>
         <HamburgerIcon />

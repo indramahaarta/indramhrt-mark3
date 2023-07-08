@@ -19,7 +19,7 @@ const Landing = () => {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-start h-[50vh] min-h-[450px] text-[2rem] font-[300]">
+    <div className="flex flex-col justify-center items-start h-[50vh] min-h-[450px] text-[1.4rem] sm:text-[1.6rem] md:text-[1.8rem] lg:text-[2rem] font-[300]">
       <p>Good {time.toLocaleLowerCase()},</p>
       <p>I am Indra Mahaarta, Software Engineer enthusiast</p>
     </div>

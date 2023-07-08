@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" className="bg-white text-[#6e6e6e]">
       <body className={inter.className}>
         {" "}
-        <div className="bg-white px-6">
+        <div className="bg-white px-4">
           <Navbar />
           <div className="max-w-[1024px] pt-[81px] pb-8 w-full mx-auto">
             {children}
